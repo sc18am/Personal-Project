@@ -1,0 +1,12 @@
+set search_path to mimiciii;
+
+COPY (  
+    SELECT 
+    a.subject_id, a.hadm_id, a.admittime, a.dischtime, a.deathtime, a.admission_location, 
+    s.hadm_id, s.transfertime, prev_service, curr_service
+    FROM
+    admissions a
+    INNER JOIN services s
+        ON a.hadm_id = s.hadm_id
+    WHERE a.subject_id = '124'
+) TO 'C:/Users/alexm/OneDrive/Desktop/Queries/leftshift/adm_serv.csv' DELIMITER ',' CSV HEADER;

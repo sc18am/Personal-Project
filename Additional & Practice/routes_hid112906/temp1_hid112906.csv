@@ -1,0 +1,4 @@
+subject_id,hadm_id,admittime,dischtime,deathtime,admission_location,discharge_location,hadm_id,curr_careunit,curr_wardid,intime,eventtype
+124,112906,2161-12-17 03:39:00,2161-12-24 15:35:00,,EMERGENCY ROOM ADMIT,HOME,112906,,32,2161-12-17 03:40:12,admit
+124,112906,2161-12-17 03:39:00,2161-12-24 15:35:00,,EMERGENCY ROOM ADMIT,HOME,112906,MICU,12,2161-12-17 11:35:34,transfer
+124,112906,2161-12-17 03:39:00,2161-12-24 15:35:00,,EMERGENCY ROOM ADMIT,HOME,112906,,,2161-12-24 16:08:42,discharge

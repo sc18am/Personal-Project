@@ -1,0 +1,2 @@
+subject_id,hadm_id,admittime,dischtime,deathtime,admission_type,admission_location,discharge_location,edregtime,edouttime
+487,160958,2130-10-31 12:15:00,2130-11-04 19:46:00,,ELECTIVE,PHYS REFERRAL/NORMAL DELI,HOME HEALTH CARE,,
